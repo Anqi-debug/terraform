@@ -88,7 +88,7 @@ variable "sg_ingress" {
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
-    cidr_blocks = ["100.35.109.34/32"]
+    cidr_blocks = ["0.0.0.0/0"] #replace this cidr block with your terminal IP address
   }
 }
 
